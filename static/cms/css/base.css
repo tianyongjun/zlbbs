@@ -130,7 +130,7 @@ body {
 }
 
 .subnav li a{
-    display: block;
+    /*display: block;*/
     color: #9b9fb1;
     padding-left: 30px;
     height:25px;
@@ -183,11 +183,19 @@ body {
     margin-top: 20px;
 }
 
-
-
 .top-group{
     padding: 5px 10px;
     border-radius: 2px;
     background: #ecedf0;
     overflow: hidden;
+}
+
+.form-container{
+    width: 300px;
+}
+
+.top-box{
+    overflow: hidden;
+    background: #ecedf0;
+    padding: 10px;
 }
